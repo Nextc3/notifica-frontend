@@ -24,7 +24,7 @@ import customParseFormat from 'dayjs/plugin/customParseFormat';
 import locale from 'antd/es/date-picker/locale/pt_BR';
 dayjs.extend(customParseFormat);
 const { Header, Content, Footer, Sider } = Layout;
-const baseUrl = "http://192.168.1.11:8080/notificacao/"
+const baseUrl = "http://192.168.100.80:8080/notificacao/"
 //const baseUrl = "http://localhost:3001/notificacao"
 // rowSelection object indicates the need for row selection
 
@@ -564,7 +564,7 @@ const App = () => {
               >
                 <p>Notificações</p>
                 <Divider />
-                <Button type="primary">Deletar</Button>
+               
 
                 <Table
                   rowSelection={
